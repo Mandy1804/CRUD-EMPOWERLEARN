@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>EmpowerLearn - Gestão de Professores</title>
+  <title>EmpowerLearn - Consultar</title>
   <link rel="stylesheet" href="../CRUD-EMPOWERLEARN/style.css" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -12,38 +12,11 @@
 <body>
   <header>
     <h1>EmpowerLearn</h1>
-    <p>Dashboard de Professores</p>
+    <p>Contrate com confiança. Ensine com excelência</p>
   </header>
 
   <main>
     <section class="card">
-      <h2>Adicionar Professor</h2>
-      <form id="professorForm">
-        <div class="form-group">
-          <label for="nome">Nome</label>
-          <input type="text" id="nome" placeholder="Digite o nome" required />
-        </div>
-        <div class="form-group">
-          <label for="materia">Matéria</label>
-          <input type="text" id="materia" placeholder="Digite a matéria" required />
-        </div>
-        <div class="form-group">
-          <label for="email">E-mail</label>
-          <input type="email" id="email" placeholder="exemplo@email.com" required />
-        </div>
-        <button type="submit" id="submitBtn">Adicionar Professor</button>
-      </form>
-    </section>
-    
-    <section class="search-card card">
-    <h2>Encontrar Professor</h2>
-    <div class="form-group">
-        <label for="search">Buscar:</label>
-        <input type="text" id="search" placeholder="Buscar por nome, matéria ou e-mail">
-    </div>
-</section>
-
-    <section class="card lista-professores">
       <h2>Lista de Professores</h2>
       <table id="professoresTabela">
         <thead>
@@ -56,6 +29,16 @@
         </thead>
         <tbody></tbody>
       </table>
+      </form>
+    </section>
+    
+    <section class="search-card card">
+    <h2>Encontrar Professor</h2>
+    <div class="form-group">
+        <label for="search">Buscar:</label>
+        <input type="text" id="search" placeholder="Buscar por nome, matéria ou e-mail">
+    </div>
+</section>
     </section>
   </main>
 
